@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/city.css">
+  <link rel="stylesheet" href="./src/styles/index.css">
+  <link rel="stylesheet" href="./src/styles/form.css">
+  <link rel="stylesheet" href="./src/styles/header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Oswald:wght@200;300;400;500;600&family=Source+Code+Pro:ital,wght@0,700;0,800;0,900;1,700&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="header__title">Weather App</h1>
+  </header>
+
+  <main>
+    <form action="" class="form">
+      <label for="form__countries" class="form__text">Search Country</label>
+      <input
+        list="countries"
+        id="form__countries"
+        placeholder="Enter country"
+        class="form_searcher"
+      >
+      <datalist id="countries"></datalist>
+
+      <label for="form__cities" class="form__text"> Search City</label>
+      <input
+        list="cities"
+        id="form__cities"
+        placeholder="Enter city"
+        class="form_searcher"
+      >
+      <datalist id="cities"></datalist>
+    </form>
+
+    <div id="app"></div>
+  </main>
+
+
+  <script>var exports = {};</script>
+
+  <script type="module" src="./dist/index.js"></script>
+</body>
+</html>

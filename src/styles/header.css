@@ -1,0 +1,15 @@
+.header {
+  display: grid;
+  justify-content: center;
+  height: 110px;
+  align-content: center;
+  background-color: var(--second-color);
+  margin-bottom: 30px;
+
+}
+
+.header__title {
+  font-size: 5rem;
+  /* color: var(--white-color); */
+  color: white;
+}
